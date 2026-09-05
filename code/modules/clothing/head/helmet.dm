@@ -1055,19 +1055,18 @@ GLOBAL_LIST_INIT(allowed_helmet_items, list(
 	specialty = "M10 pattern covert"
 	flags_atom = NO_GAMEMODE_SKIN|NO_NAME_OVERRIDE
 
-/obj/item/clothing/head/helmet/marine/leader
+/obj/item/clothing/head/helmet/marine/rto
 	name = "\improper M11 pattern helmet"
-	desc = "A variant of the standard M10 pattern. The front plate is reinforced. This one contains a small built-in camera and has cushioning to project your fragile brain, can also hold a second visor optic."
-	icon_state = "sl_helmet"
+	desc = "A variant of the standard M10 pattern. The front plate is reinforced. This one contains a small built-in camera and has cushioning to project your fragile brain."
+	icon_state = "io"
 	armor_bio = CLOTHING_ARMOR_MEDIUMHIGH
 	specialty = "M11 pattern marine"
-	max_inserted_visors = 2
 
-/obj/item/clothing/head/helmet/marine/rto
+/obj/item/clothing/head/helmet/marine/leader
 	name = "\improper M12 pattern dust helmet"
 	desc = "An experimental brain-bucket. A dust ruffle hangs from back instead of the standard lobster shell design. Moderately better at deflecting blunt objects at the cost of humiliation, can also hold a second visor optic. But who will be laughing at the memorial? Not you, you'll be busy getting medals for your fantastic leadership."
-	icon_state = "io"
-	item_state = "io"
+	icon_state = "sl_helmet"
+	item_state = "sl_helmet"
 	armor_melee = CLOTHING_ARMOR_MEDIUMHIGH
 	armor_bio = CLOTHING_ARMOR_MEDIUMHIGH
 	specialty = "M12 pattern"
@@ -1095,7 +1094,7 @@ GLOBAL_LIST_INIT(allowed_helmet_items, list(
 /obj/item/clothing/head/helmet/marine/rto/army/medic
 	built_in_visors = list(new /obj/item/device/helmet_visor, new /obj/item/device/helmet_visor/medical/advanced)
 
-/obj/item/clothing/head/helmet/marine/rto/intel
+/obj/item/clothing/head/helmet/marine/leader/intel
 	name = "\improper XM12 pattern intelligence helmet"
 	desc = "An experimental brain-bucket. A dust ruffle hangs from back. Moderately better at deflecting blunt objects at the cost of humiliation, can also hold a second visor optic. But who will be laughing at the memorial? Not you, you'll be busy getting medals for your intel work."
 	specialty = "XM12 pattern intel"
